@@ -1,10 +1,10 @@
 {
-    "portfolio": [
+    "projects": [
         {
             "cover": "NewsMonkey",
             "title": "NewsMonkey",
             "description": "React, JSX, Tailwind",
-            "url": "http://google.com",
+            "url": "https://c.tenor.com/IHdlTRsmcS4AAAAM/404.gif",
             "code": "https://github.com/Hemant-0000/NewsMonkey"
         },
         {

@@ -2,15 +2,14 @@ import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import portfolioData from '../../data/projects.json';
+import projectsData from '../../data/projects.json';
 import NewsMonkey from '../../assets/images/NewsMonkey.png';
 import hulu from '../../assets/images/hulu.png';
 import imageGallery from '../../assets/images/image-gallery.png';
 import Netflix from '../../assets/images/Netflix.png';
 
-const Portfolio = () => { 
+const Projects = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
-    console.log(portfolioData);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -23,27 +22,27 @@ const Portfolio = () => {
     }); 
 
 
-    const renderPortfolio = (portfolio) => {
+    const renderProjects = (project) => {
         return (
             <div className="images-container">
                 {
-                    portfolio.map((port, idx) => {
+                    project.map((proj, idx) => {
                         return (
                             <div className="image-box" key={idx}>
                                 <img 
-                                src={port.cover==='Netflix' ? Netflix : port.cover==='NewsMonkey' ? NewsMonkey : port.cover==='hulu' ? hulu : imageGallery}
+                                src={proj.cover==='Netflix' ? Netflix : proj.cover==='NewsMonkey' ? NewsMonkey : proj.cover==='hulu' ? hulu : imageGallery}
                                 className="portfolio-image"
                                 alt="portfolio" />
                                 <div className="content">
-                                    <p className="title">{port.title}</p>
-                                    <h4 className="description">{port.description}</h4>
+                                    <p className="title">{proj.title}</p>
+                                    <h4 className="description">{proj.description}</h4>
                                     <button
                                         className="btn"
-                                        onClick={() => window.open(port.url)}
+                                        onClick={() => window.open(proj.url)}
                                     >View</button>
                                     <button
                                         className="btn"
-                                        onClick={() => window.open(port.code)}
+                                        onClick={() => window.open(proj.code)}
                                     >Code</button>
                                 </div>
                             </div>
@@ -65,11 +64,11 @@ const Portfolio = () => {
                         idx={15}
                     />
                 </h1>
-                <div>{renderPortfolio(portfolioData.portfolio)}</div>
+                <div>{renderProjects(projectsData.projects)}</div>
             </div>
             <Loader type="pacman" />
         </>
     );
 }
 
-export default Portfolio;
+export default Projects;
