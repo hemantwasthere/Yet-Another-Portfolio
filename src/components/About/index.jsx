@@ -29,7 +29,7 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <div>
+                    <div className='text-about'>
                         <p>
                             I'm very ambitious front-end developer looking for a role in
                             established IT company with the opportunity to work with the latest
