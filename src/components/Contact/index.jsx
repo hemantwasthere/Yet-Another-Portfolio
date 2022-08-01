@@ -12,7 +12,7 @@ const Contact = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            setLetterClass('text-animate-hover')
+            setLetterClass('text-animate-no-hover-color')
         }, 3000)
     }, [])
 
@@ -66,7 +66,6 @@ const Contact = () => {
                                 <li>
                                     <input type="submit" className="flat-button" value="SEND" />
                                 </li>
-
                             </ul>
                         </form>
                     </div>
@@ -79,7 +78,7 @@ const Contact = () => {
                     <br />
                     INDIA, <br />
                     <br />
-                    <a rel="noreferrer" target='_blank' href="mailto:hemant.is.there@gmail.com"><span>hemant.is.there@gmail.com</span></a>
+                    <a rel="noreferrer" target='_blank' href="mailto:hello@itsmehemant.tech"><span>hello@itsmehemant.tech</span></a>
                 </div>
 
                 <div className="map-wrap">

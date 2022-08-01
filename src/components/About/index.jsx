@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react'
-import { faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 import html from '../../assets/images/html.png'
 import css from '../../assets/images/css.png'
@@ -16,7 +14,7 @@ const About = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            setLetterClass('text-animate-hover')
+            setLetterClass('text-animate-no-hover-color')
         }, 3000)
     }, [])
 
@@ -31,19 +29,21 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>
-                        I'm very ambitious front-end developer looking for a role in
-                        established IT company with the opportunity to work with the latest
-                        technologies on challenging and diverse projects.
-                    </p>
-                    <p align="LEFT">
-                        I'm quietly confident, naturally curious, and perpetually working on
-                        improving my chops one design problem at a time.
-                    </p>
-                    <p>
-                        If I need to define myself in one sentence that would be a family
-                        person, a sports fanatic, learner enthusiast, and tech-obsessed!!!
-                    </p>
+                    <div>
+                        <p>
+                            I'm very ambitious front-end developer looking for a role in
+                            established IT company with the opportunity to work with the latest
+                            technologies on challenging and diverse projects.
+                        </p>
+                        <p align="LEFT">
+                            I'm quietly confident, naturally curious, and perpetually working on
+                            improving my chops one design problem at a time.
+                        </p>
+                        <p>
+                            If I need to define myself in one sentence that would be a family
+                            person, a sports fanatic, learner enthusiast, and tech-obsessed!!!
+                        </p>
+                    </div>
                 </div>
 
                 <div className="stage-cube-cont">

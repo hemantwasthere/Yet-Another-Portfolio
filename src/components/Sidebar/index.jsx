@@ -1,6 +1,5 @@
 import './index.scss'
 import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser, faEnvelope, faSuitcase, faBagShopping } from '@fortawesome/free-solid-svg-icons'
@@ -10,8 +9,8 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
-        <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+        <img className="sub-logo" src={LogoS} alt="hemant" />
+        <span className='logo-name'>Hemant</span>
       </Link>
 
       <nav>
@@ -50,7 +49,7 @@ const Sidebar = () => {
 
         <li>
           <a
-            href="https://github.com/Hemant-0000"
+            href="https://github.com/hemantwasthere"
             target="_blank"
             rel="noreferrer"
           >
@@ -70,7 +69,7 @@ const Sidebar = () => {
 
         <li>
           <a
-            href="https://drive.google.com/file/d/155K-57Tvm4Dc6FKsLo1O5aRFoZ58FOt6/view"
+            href="https://drive.google.com/file/d/1n_gKym-x3BZnVFTd6nhXH_q9Jx4qa-qz/view"
             rel="noreferrer"
             target="_blank"
           >

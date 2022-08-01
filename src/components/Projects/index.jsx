@@ -13,7 +13,7 @@ const Projects = () => {
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            setLetterClass('text-animate-hover');
+            setLetterClass('text-animate-no-hover-color');
         }, 3000);
 
         return () => {
