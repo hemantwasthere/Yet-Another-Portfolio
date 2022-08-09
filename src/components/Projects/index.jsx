@@ -3,9 +3,9 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import projectsData from '../../data/projects.json';
-import NewsMonkey from '../../assets/images/NewsMonkey.png';
+import cloudimage from '../../assets/images/cloudimage.png';
 import hulu from '../../assets/images/hulu.png';
-import imageGallery from '../../assets/images/image-gallery.png';
+import medium from '../../assets/images/medium.png';
 import Netflix from '../../assets/images/Netflix.png';
 
 const Projects = () => { 
@@ -30,7 +30,7 @@ const Projects = () => {
                         return (
                             <div className="image-box" key={idx}>
                                 <img 
-                                src={proj.cover==='Netflix' ? Netflix : proj.cover==='NewsMonkey' ? NewsMonkey : proj.cover==='hulu' ? hulu : imageGallery}
+                                src={proj.cover==='Netflix' ? Netflix : proj.cover==='cloudimage' ? cloudimage : proj.cover==='hulu' ? hulu : medium}
                                 className="portfolio-image"
                                 alt="portfolio" />
                                 <div className="content">

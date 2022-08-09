@@ -1,32 +1,32 @@
 {
     "projects": [
         {
-            "cover": "NewsMonkey",
-            "title": "NewsMonkey",
-            "description": "React, JSX, Tailwind",
-            "url": "https://c.tenor.com/IHdlTRsmcS4AAAAM/404.gif",
-            "code": "https://github.com/Hemant-0000/NewsMonkey"
+            "cover": "cloudimage",
+            "title": "Cloud Image",
+            "description": "Firebase, NextJS, Tailwind",
+            "url": "https://image-uploader-by-me.netlify.app/",
+            "code": "https://github.com/hemantwasthere/Image-Uploader"
         },
         {
             "cover": "hulu",
             "title": "Hulu",
-            "description": "React, Next, Tailwind",
+            "description": "NextJS, TMDB, Tailwind",
             "url": "https://hulu-three-omega.vercel.app/?genre=fetchTrending",
-            "code": "https://github.com/Hemant-0000/hulu"
+            "code": "https://github.com/hemantwasthere/hulu"
         },
         {
-            "cover": "imageGallery",
-            "title": "Image Gallery",
-            "description": "React, JSX, Tailwind",
-            "url": "https://image-gallery-eosin-three.vercel.app/",
-            "code": "https://github.com/Hemant-0000/Image-Gallery"
+            "cover": "medium",
+            "title": "Medium Clone",
+            "description": "NextJS, Firebase, Tailwind",
+            "url": "https://mediumbyme.netlify.app/",
+            "code": "https://github.com/hemantwasthere/Medium-Clone"
         },
         {
             "cover": "Netflix",
             "title": "Netflix",
-            "description": "React, Next, Firebase, Tailwind",
+            "description": "NextJS, TMDB, Firebase, Tailwind",
             "url": "https://netflix-by-me.netlify.app/",
-            "code": "https://github.com/Hemant-0000/Netflix-Klone"
+            "code": "https://github.com/hemantwasthere/Netflix-Klone"
         }
     ]
 }
