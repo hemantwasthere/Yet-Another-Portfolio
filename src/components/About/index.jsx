@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import './index.scss'
+import './about.scss'
 import html from '../../assets/images/html.png'
 import css from '../../assets/images/css.png'
 import javascript from '../../assets/images/javascript.png'
@@ -20,12 +20,12 @@ const About = () => {
 
     return (
         <>
-            <div className="container about-page">
-                <div className="text-zone">
+            <div className="about-container about-page">
+                <div className="text-zone-about">
                     <h1>
                         <AnimatedLetters
                             letterClass={letterClass}
-                            strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+                            strArray={['M', 'e', ',', ' ', 'M', 'y', 's', 'e', 'l', 'f', ',', ' ', '&', ' ', 'I']}
                             idx={15}
                         />
                     </h1>
