@@ -189,16 +189,18 @@
     h1{
       font-size: 50px;
       &:before {
-        margin-left: 110px;
+        margin-left: 170px;
       }
     }
     display: flex;
     flex-direction: column;
     margin-top: 150px;
     width: 400px;
-    margin-left: 110px;
+    margin-left: 180px;
 
   .text-about {
+
+    margin-top: -10px;
 
     &:before {
       content: '<p>';
@@ -206,8 +208,8 @@
       color: #ffd700;
       font-size: 18px;
       position: absolute;
-      margin-top: -23px;
-      left: 128px;
+      margin-top: -10px;
+      left: 200px;
       opacity: 0.6;
     }
 
