@@ -30,8 +30,9 @@ const Contact = () => {
 
     return (
         <>
-            <div className="container contact-page">
-                <div className="text-zone">
+            <div className="container-contact contact-page">
+
+                <div className="text-zone-contact">
 
                     <h1>
                         <AnimatedLetters letterClass={letterClass} strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']} idx={15} />
@@ -71,17 +72,18 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="info-map">
-                    Hemant,
-                    <br />
-                    New Delhi, 110086
-                    <br />
-                    INDIA, <br />
-                    <br />
-                    <a rel="noreferrer" target='_blank' href="mailto:hello@itsmehemant.tech"><span>hello@itsmehemant.tech</span></a>
-                </div>
-
                 <div className="map-wrap">
+
+                    <div className="info-map">
+                        Hemant,
+                        <br />
+                        New Delhi, 110086
+                        <br />
+                        INDIA, <br />
+                        <br />
+                        <a rel="noreferrer" target='_blank' href="mailto:hello@itsmehemant.tech"><span>hello@itsmehemant.tech</span></a>
+                    </div>
+
                     <MapContainer center={[28.690689, 77.070832]} zoom={15} >
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                         <Marker position={[28.695812, 77.072952]}>

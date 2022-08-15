@@ -7,8 +7,7 @@
 }
 
 .top-tags {
-  bottom: auto;
-  top: 9px;
+  top: 0px;
   margin-left: -90px;
 
   .bottom-tag-html {
@@ -26,9 +25,29 @@
   font-family: 'La Belle Aurore', cursive;
 }
 
-.bottom-tags {
+.bottom-tags-contact {
+  position: absolute;
+  bottom: -680px;
+  margin-left: -90px;
+
+  .bottom-tag-html {
+    margin-left: -20px;
+  }
+}
+
+.bottom-tags-about {
   position: absolute;
   bottom: -220px;
+  margin-left: -90px;
+
+  .bottom-tag-html {
+    margin-left: -20px;
+  }
+}
+
+.bottom-tags-projects {
+  position: absolute;
+  bottom: -70px;
   margin-left: -90px;
 
   .bottom-tag-html {
@@ -134,6 +153,7 @@
   .page {
     overflow: hidden;
   }
+
   .top-tags {
     bottom: auto;
     top: 9px;
@@ -154,7 +174,9 @@
     font-family: 'La Belle Aurore', cursive;
   }
 
-  .bottom-tags {
+  .bottom-tags-about,
+  .bottom-tags-contact,
+  .bottom-tags-projects {
     position: absolute;
     bottom: 0px;
     margin-left: 48px;

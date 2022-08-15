@@ -1,9 +1,10 @@
 import React from 'react'
 import Sidebar from '../Sidebar'
 import './index.scss'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 
 const Layout = () => {
+    const location = useLocation()
     return (
         <div className="App">
             <Sidebar />
@@ -15,7 +16,7 @@ const Layout = () => {
                 </span>
 
                 <Outlet />
-                <span className="tags bottom-tags">
+                <span className={`tags ${location.pathname === '/' ? 'bottom-tags-home' : location.pathname === '/about' ? 'bottom-tags-about' : location.pathname === '/contact' ? 'bottom-tags-contact' : location.pathname === '/projects' ? 'bottom-tags-projects' : ''}  `}>
                     &lt;/body&gt;
                     <br />
                     <span className="bottom-tag-html">&lt;/html&gt;</span>
