@@ -12,31 +12,34 @@ const Sidebar = () => {
   return (
     <>
       <div className="nav-bar">
-        <Link className="logo" to="/">
-          <img className="sub-logo" src={LogoS} alt="hemant" />
-          <span className='logo-name'>Hemant</span>
+        <Link to="/" >
+          <div className="logo">
+            <img className="sub-logo" src={LogoS} alt="hemant" />
+            <span className='logo-name'>Hemant</span>
+            <p>Web Developer</p>
+          </div>
         </Link>
 
         <nav>
           <NavLink exact="true" activeclassname="active" to="/">
-            <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+            Home
           </NavLink>
 
           <NavLink activeclassname="active" className="about-link" to="/about">
-            <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+            About
           </NavLink>
 
           <NavLink activeclassname="active" className="portfolio-link" to="/projects">
-            <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+            Projects
           </NavLink>
 
-          <NavLink
-            activeclassname="active"
-            className="contact-link"
-            to="/contact"
-          >
-            <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          <NavLink activeclassname="active" className="contact-link" to="/contact" >
+            Contact
           </NavLink>
+
+          <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1n_gKym-x3BZnVFTd6nhXH_q9Jx4qa-qz/view' activeclassname="active" className="contact-link">
+            Resume
+          </a>
         </nav>
 
         <ul>
@@ -69,17 +72,6 @@ const Sidebar = () => {
               <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
             </a>
           </li>
-
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1n_gKym-x3BZnVFTd6nhXH_q9Jx4qa-qz/view"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={faBagShopping} color="#4d4d4e" />
-            </a>
-          </li>
-
         </ul>
 
       </div>
@@ -115,6 +107,10 @@ const Sidebar = () => {
               className="contact-link" to="/contact">
               Contact
             </NavLink>
+
+            <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1n_gKym-x3BZnVFTd6nhXH_q9Jx4qa-qz/view' activeclassname="active" className="contact-link">
+            Resume
+          </a>
           </nav>
 
           <ul>
@@ -145,16 +141,6 @@ const Sidebar = () => {
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="https://drive.google.com/file/d/1n_gKym-x3BZnVFTd6nhXH_q9Jx4qa-qz/view"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <FontAwesomeIcon icon={faBagShopping} color="#4d4d4e" />
               </a>
             </li>
 
