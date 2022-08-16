@@ -15,9 +15,10 @@
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
-
+    
     span {
-      z-index: 1;
+      font-size: 60px;
+      z-index: 100px;
     }
 
     &:before {
@@ -52,6 +53,7 @@
       height: auto;
       animation: rotateIn 1s linear both;
       animation-delay: 1.4s;
+      z-index: -1;
     }
   }
 
@@ -89,8 +91,6 @@
     }
 
   }
-
-
   .container-home {
     width: 100%;
     will-change: contents;
@@ -117,10 +117,6 @@
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
-
-    span {
-      font-size: 60px;
-    }
   }
 
   .flat-button {
