@@ -20,8 +20,8 @@ const Home = () => {
 
     return (
         <>
-            <div className="container home-page">
-                <div className="text-zone">
+            <div className="container-home home-page">
+                <div className="text-zone-home">
 
                     <h1>
                         <span className={letterClass}>H</span>

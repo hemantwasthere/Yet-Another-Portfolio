@@ -1,21 +1,60 @@
 .logo-container{
-  width: 400px;
-  height: 609px;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 15%;
-  left: auto;
-  margin: auto;
   z-index: 0;
 }
 .solid-logo{
   position: absolute;
-  top: -17px;
-  right: auto;
-  bottom: auto;
-  left: 0;
-  height: 680px;
-  width: 680px;
+  top: 547px;
+  bottom: 0;
+  left: -50px;
+  height: 420px;
+  width: 420px;
   z-index: 1;
+}
+
+@media screen and (min-width: 640px) {
+  .solid-logo{
+    top: 490px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-container{
+    width: 400px;
+    height: 609px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15%;
+    left: auto;
+    margin: auto;
+    z-index: 0;
+  }
+  .solid-logo{
+    height: 280px;
+    width: 280px;
+    top: 0;
+    left: 260px;
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .solid-logo{
+    height: 480px;
+    width: 480px;
+    top: 80px;
+    left: 120px;
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .solid-logo{
+    height: 680px;
+    width: 680px;
+    top: -30px;
+    left: 10px;
+    z-index: 1;
+  }
 }
