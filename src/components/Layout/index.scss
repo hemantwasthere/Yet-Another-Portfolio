@@ -37,7 +37,7 @@
 
 .bottom-tags-about {
   position: absolute;
-  bottom: -220px;
+  bottom: -140px;
   margin-left: -90px;
 
   .bottom-tag-html {
@@ -159,6 +159,14 @@
   }
 }
 
+@media screen and (min-width: 375px) {
+  .bottom-tags-about {
+    position: absolute;
+    bottom: -100px;
+    margin-left: -90px;
+  }
+}
+
 @media screen and (min-width: 640px) {
   .bottom-tags-home {
     bottom: -310px;
@@ -180,18 +188,13 @@
       margin-left: -20px;
     }
   }
-
-  .tags {
-    color: #ffd700;
-    opacity: 0.6;
+  
+  .bottom-tags-about {
     position: absolute;
-    bottom: 0;
-    left: 120px;
-    font-size: 18px;
-    font-family: 'La Belle Aurore', cursive;
+    bottom: 0px;
+    margin-left: 50px;
   }
 
-  .bottom-tags-about,
   .bottom-tags-contact,
   .bottom-tags-projects {
     position: absolute;
