@@ -2,48 +2,50 @@
   .text-zone-home {
     position: absolute;
     left: 10%;
-    top: 50%;
+    top: 300px;
     transform: translateY(-50%);
-    width: 40%;
+    width: 85%;
+    vertical-align: middle;
+    display: table-cell;
     max-height: 90%;
-  }
 
-  h1 {
-    color: #fff;
-    font-size: 56px;
-    line-height: 53px;
-    margin: 0;
-    font-family: 'Coolvetica';
-    font-weight: 400;
-    
-    span {
-      font-size: 60px;
-      z-index: 1;
-    }
+    h1 {
+      color: #fff;
+      font-size: 56px;
+      line-height: 53px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
 
-    &:before {
-      content: '<h1>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -40px;
-      left: -15px;
-      opacity: 0.6;
-    }
+      span {
+        font-size: 60px;
+        z-index: 1;
+      }
 
-    &:after {
-      content: '</h1>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: 18px;
-      margin-left: 20px;
-      animation: fadeIn 1s 1.7s backwards;
-      opacity: 0.6;
-    }
+      &:before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -40px;
+        left: -15px;
+        opacity: 0.6;
+      }
 
+<<<<<<< HEAD
+      &:after {
+        content: '</h1>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+      }
+=======
     img {
       opacity: 0;
       width: 45px;
@@ -55,41 +57,57 @@
       animation-delay: 1.4s;
     }
   }
+>>>>>>> 31b0b9d5eecca292e8f6dca057234883877b1ed6
 
-  h2 {
-    color: #8d8d8d;
-    margin-top: 20px;
-    margin-left: 25px;
-    font-weight: 400;
-    font-size: 11px;
-    font-family: sans-serif;
-    letter-spacing: 3px;
-    animation: fadeIn 1s 1.8s backwards;
+      img {
+        opacity: 0;
+        width: 45px;
+        margin-right: 7px;
+        margin-left: 25px;
+        margin-bottom: -3px;
+        height: auto;
+        animation: rotateIn 1s linear both;
+        animation-delay: 1.4s;
+      }
 
-    &:before {
-      content: '<p>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -4px;
-      left: -15px;
-      opacity: 0.6;
     }
 
-    &:after {
-      content: '</p>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -4px;
-      margin-left: 10px;
-      animation: fadeIn 1s 1.7s backwards;
-      opacity: 0.6;
+    h2 {
+      color: #8d8d8d;
+      margin-top: 20px;
+      margin-left: 25px;
+      font-weight: 400;
+      font-size: 11px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+
+      &:before {
+        content: '<p>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -4px;
+        left: -15px;
+        opacity: 0.6;
+      }
+
+      &:after {
+        content: '</p>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -4px;
+        margin-left: 10px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+      }
     }
 
   }
+
   .container-home {
     width: 100%;
     will-change: contents;
@@ -102,17 +120,6 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
-  }
-
-  .text-zone-home {
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 85%;
-    vertical-align: middle;
-    display: table-cell;
-    max-height: 90%;
   }
 
   .flat-button {
