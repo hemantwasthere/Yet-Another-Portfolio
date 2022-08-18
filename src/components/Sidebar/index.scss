@@ -15,10 +15,10 @@
     height: 195px;
 
     img {
-      width: 180px;
-      margin-left: -15px;
+      width: 70px;
+      margin-left: 35px;
       margin-top: 15px;
-      margin-bottom: -18px;
+      margin-bottom: 0;
     }
 
     span {
@@ -155,27 +155,29 @@
     }
 
     img {
-      width: 130px;
+      width: 70px;
       height: auto;
       margin-left: 15px;
       margin-top: 65px;
+      margin-bottom: 20px;
     }
 
     span {
       font-size: 20px;
       font-family: 'Coolvetica', cursive;
       color: antiquewhite;
-      margin-top: -7px;
       margin-left: 10px;
+      margin-bottom: 15px;
     }
 
     p {
       font-size: 15px;
       font-family: 'open sans', sans-serif;
       color: #A4A4A5;
-      margin-top: 30px;
+      margin-top: 0;
       margin-left: 10px;
       font-weight: 400;
+      margin-bottom: 50px;
     }
   }
 
