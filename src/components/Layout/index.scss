@@ -57,7 +57,7 @@
 
 .bottom-tags-home {
   position: absolute;
-  bottom: -340px;
+  bottom: -140px;
   margin-left: -90px;
 
   .bottom-tag-html {
@@ -169,7 +169,7 @@
 
 @media screen and (min-width: 640px) {
   .bottom-tags-home {
-    bottom: -310px;
+    bottom: -150px;
   }
 }
 
@@ -196,6 +196,7 @@
   }
 
   .bottom-tags-contact,
+  .bottom-tags-home,
   .bottom-tags-projects {
     position: absolute;
     bottom: 0px;
