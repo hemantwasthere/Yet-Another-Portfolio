@@ -87,8 +87,8 @@
 
 .stage-cube-cont {
   width: 100%;
-  height: 50%;
-  padding-top: 80px;
+  height: 280px;
+  padding-top: 74px;
   margin-left: 0;
   overflow: hidden;
 }
@@ -194,34 +194,15 @@
     }
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 80px;
     width: 400px;
     margin-left: 180px;
 
   .text-about {
-
     margin-top: -10px;
-
     &:before {
-      content: '<p>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -10px;
+      margin-top: -23px;
       left: 200px;
-      opacity: 0.6;
-    }
-
-    &:after {
-      content: '</p>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -10px;
-      margin-left: -17px;
-      animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
     }
   }
@@ -229,12 +210,12 @@
 
   .stage-cube-cont {
     width: 50%;
-    top: 0;
+    bottom: 0px;
     padding-top: 250px;
     padding-bottom: 0;
     margin-left: 0;
     position: absolute;
-    right: 0;
+    left: 240px;
     overflow: hidden;
   }
 
@@ -296,5 +277,30 @@
       transform: rotateX(-90deg) translateZ(100px);
       color: #ec4d28;
     }
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .text-zone-about {
+    margin-top: 150px;
+    width: 400px;
+    margin-left: 180px;
+
+  .text-about {
+    margin-top: -10px;
+  }
+}
+  .stage-cube-cont {
+    position: absolute;
+    width: 100%;
+    top: 180px;
+    padding-top: 80px;
+    left: 350px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .stage-cube-cont {
+    left: 380px;
   }
 }
