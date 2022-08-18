@@ -33,6 +33,7 @@
         opacity: 0.6;
       }
 
+<<<<<<< HEAD
       &:after {
         content: '</h1>';
         font-family: 'La Belle Aurore', cursive;
@@ -44,6 +45,19 @@
         animation: fadeIn 1s 1.7s backwards;
         opacity: 0.6;
       }
+=======
+    img {
+      opacity: 0;
+      width: 45px;
+      margin-right: 7px;
+      margin-left: 25px;
+      margin-bottom: -3px;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+>>>>>>> 31b0b9d5eecca292e8f6dca057234883877b1ed6
 
       img {
         opacity: 0;
