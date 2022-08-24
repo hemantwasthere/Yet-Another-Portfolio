@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
+import cloudimage from '../../assets/images/cloudimage.png';
+import github from '../../assets/images/github.png';
+import hulu from '../../assets/images/hulu.png';
+import Netflix from '../../assets/images/Netflix.png';
+import projectsData from '../../data/projects.json';
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import projectsData from '../../data/projects.json';
-import cloudimage from '../../assets/images/cloudimage.png';
-import hulu from '../../assets/images/hulu.png';
-import medium from '../../assets/images/medium.png';
-import Netflix from '../../assets/images/Netflix.png';
 
-const Projects = () => { 
+const Projects = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
 
     useEffect(() => {
@@ -19,7 +19,7 @@ const Projects = () => {
         return () => {
             clearTimeout(timer);
         }
-    }); 
+    });
 
 
     const renderProjects = (project) => {
@@ -29,10 +29,10 @@ const Projects = () => {
                     project.map((proj, idx) => {
                         return (
                             <div className="image-box" key={idx}>
-                                <img 
-                                src={proj.cover==='Netflix' ? Netflix : proj.cover==='cloudimage' ? cloudimage : proj.cover==='hulu' ? hulu : medium}
-                                className="portfolio-image"
-                                alt="portfolio" />
+                                <img
+                                    src={proj.cover === 'Netflix' ? Netflix : proj.cover === 'cloudimage' ? cloudimage : proj.cover === 'hulu' ? hulu : github}
+                                    className="portfolio-image"
+                                    alt="portfolio" />
                                 <div className="content">
                                     <p className="title">{proj.title}</p>
                                     <h4 className="description">{proj.description}</h4>
