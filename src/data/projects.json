@@ -15,11 +15,11 @@
             "code": "https://github.com/hemantwasthere/hulu"
         },
         {
-            "cover": "medium",
-            "title": "Medium Clone",
+            "cover": "github",
+            "title": "GitHub Alt",
             "description": "NextJS, Firebase, Tailwind",
-            "url": "https://mediumbyme.netlify.app/",
-            "code": "https://github.com/hemantwasthere/Medium-Clone"
+            "url": "https://githubbyme.netlify.app/",
+            "code": "https://github.com/hemantwasthere/GitHub-Clone"
         },
         {
             "cover": "Netflix",
