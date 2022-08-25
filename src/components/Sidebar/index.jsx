@@ -1,10 +1,10 @@
-import './index.scss'
-import LogoS from '../../assets/images/logo-s.png'
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { Link, NavLink } from 'react-router-dom'
-import { VscMenu, VscChromeClose } from 'react-icons/vsc'
 import { useState } from 'react'
+import { VscChromeClose, VscMenu } from 'react-icons/vsc'
+import { Link, NavLink } from 'react-router-dom'
+import LogoS from '../../assets/images/logo-s.png'
+import './index.scss'
 
 const Sidebar = () => {
   const [toggleHam, setToggleHam] = useState(false)
@@ -36,7 +36,7 @@ const Sidebar = () => {
             Contact
           </NavLink>
 
-          <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1n_gKym-x3BZnVFTd6nhXH_q9Jx4qa-qz/view' activeclassname="active" className="contact-link">
+          <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1Rago-Qv4xCu_QNvP4mJb9fwTsOhWwfTL/view?usp=sharing' activeclassname="active" className="contact-link">
             Resume
           </a>
         </nav>
@@ -107,9 +107,9 @@ const Sidebar = () => {
               Contact
             </NavLink>
 
-            <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1n_gKym-x3BZnVFTd6nhXH_q9Jx4qa-qz/view' activeclassname="active" className="contact-link">
-            Resume
-          </a>
+            <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1Rago-Qv4xCu_QNvP4mJb9fwTsOhWwfTL/view?usp=sharing' activeclassname="active" className="contact-link">
+              Resume
+            </a>
           </nav>
 
           <ul>
