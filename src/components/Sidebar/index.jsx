@@ -36,7 +36,7 @@ const Sidebar = () => {
             Contact
           </NavLink>
 
-          <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1Rago-Qv4xCu_QNvP4mJb9fwTsOhWwfTL/view?usp=sharing' activeclassname="active" className="contact-link">
+          <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1skeJqrRFhDMecsH-mt-JYrRYiNQkiEYy/view?usp=sharing' activeclassname="active" className="contact-link">
             Resume
           </a>
         </nav>
@@ -107,7 +107,7 @@ const Sidebar = () => {
               Contact
             </NavLink>
 
-            <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1Rago-Qv4xCu_QNvP4mJb9fwTsOhWwfTL/view?usp=sharing' activeclassname="active" className="contact-link">
+            <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1skeJqrRFhDMecsH-mt-JYrRYiNQkiEYy/view?usp=sharing' activeclassname="active" className="contact-link">
               Resume
             </a>
           </nav>
