@@ -36,7 +36,7 @@ const Sidebar = () => {
             Contact
           </NavLink>
 
-          <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1skeJqrRFhDMecsH-mt-JYrRYiNQkiEYy/view?usp=sharing' activeclassname="active" className="contact-link">
+          <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/19ZqtdYC1CMDgO9kRE8oeXDIddrqd-cAe/view?usp=sharing' activeclassname="active" className="contact-link">
             Resume
           </a>
         </nav>

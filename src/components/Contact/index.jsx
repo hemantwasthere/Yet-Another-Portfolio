@@ -1,8 +1,7 @@
-import { useEffect, useState } from 'react'
-import Loader from 'react-loaders'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { useEffect, useRef, useState } from 'react'
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
@@ -84,9 +83,9 @@ const Contact = () => {
                         <a rel="noreferrer" target='_blank' href="mailto:hello@itsmehemant.tech"><span>hello@itsmehemant.tech</span></a>
                     </div>
 
-                    <MapContainer center={[28.686472, 77.071583]} zoom={15} >
+                    <MapContainer center={[28.695867, 77.072800]} zoom={15} >
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                        <Marker position={[28.686472, 77.071583]}>
+                        <Marker position={[28.695867, 77.072800]}>
                             <Popup>Hemant lives here, come over for a cup of coffee :)</Popup>
                         </Marker>
                     </MapContainer>
