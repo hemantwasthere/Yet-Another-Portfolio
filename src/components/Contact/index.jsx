@@ -83,9 +83,9 @@ const Contact = () => {
                         <a rel="noreferrer" target='_blank' href="mailto:hello@itsmehemant.tech"><span>hello@itsmehemant.tech</span></a>
                     </div>
 
-                    <MapContainer center={[28.695867, 77.072800]} zoom={15} >
+                    <MapContainer center={[28.595012, 77.018998]} zoom={15} >
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                        <Marker position={[28.695867, 77.072800]}>
+                        <Marker position={[28.595012, 77.018998]}>
                             <Popup>Hemant lives here, come over for a cup of coffee :)</Popup>
                         </Marker>
                     </MapContainer>
